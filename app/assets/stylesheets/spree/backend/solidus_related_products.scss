@@ -1,0 +1,15 @@
+//@import 'bourbon';
+//@import 'solidus_admin/bootstrap/bootstrap';
+
+
+[data-hook="admin_product_related_products_add"] {
+  //@include make-row();
+
+  //> * {
+  //  @include make-col();
+  //  @include padding(0 null); // override the padding on .field
+  //} }
+
+.product-related-add-field-name {
+  //@include make-col-span(4);
+}
