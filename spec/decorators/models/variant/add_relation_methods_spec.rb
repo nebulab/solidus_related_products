@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SolidusRelatedProducts
   module Variant
     RSpec.describe AddRelationMethods do

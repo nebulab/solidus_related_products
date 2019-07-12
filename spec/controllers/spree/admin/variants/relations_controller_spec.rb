@@ -3,10 +3,10 @@
 RSpec.describe Spree::Admin::Variants::RelationsController, type: :controller do
   stub_authorization!
 
-  let(:user)     { create(:user) }
+  let(:user) { create(:user) }
   let!(:variant) { create(:variant) }
   let(:product) { variant.product }
-  let!(:other1)  { create(:product) }
+  let!(:other1) { create(:product) }
 
   let!(:relation_type) { create(:product_relation_type, applies_from: 'Spree::Variant') }
   let!(:relation) do

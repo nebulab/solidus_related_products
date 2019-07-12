@@ -4,9 +4,9 @@ RSpec.describe Spree::Api::RelationsController, type: :controller do
   stub_authorization!
   render_views
 
-  let(:user)     { create(:user) }
+  let(:user) { create(:user) }
   let!(:product) { create(:product) }
-  let!(:other1)  { create(:product) }
+  let!(:other1) { create(:product) }
 
   let!(:relation_type) { create(:product_relation_type) }
   let!(:relation) do
